@@ -7,6 +7,6 @@ public class Bill3 {
 		double totalBill = Double.parseDouble(args[3]);
 		double splitBill = totalBill / 3.0;
 		double newBill = Math.ceil(splitBill);
-		System.out.println("dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + newBill + " Shekels each");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + newBill + " Shekels each");
 	}
 }
