@@ -6,5 +6,6 @@ public class FVCalc {
 	int years = Integer.parseInt(args[2]);
 	double futureValue = startFunds * (Math.pow((1 + intrest), years));
 	System.out.println((int) futureValue);
+	//trail..
 	}
 }
