@@ -20,8 +20,8 @@ public class TimeFormat {
 		{
 			if (hours == 00)
 			{			
-				if (minutes > 9) System.out.println((hours) + "0:" + minutes + " AM");
-				else System.out.println((hours) + "0:0" + minutes + " AM");
+				if (minutes > 9) System.out.println((hours) + ":" + minutes + " AM");
+				else System.out.println((hours) + ":0" + minutes + " AM");
 			}
 			else
 			{
